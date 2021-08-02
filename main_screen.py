@@ -3,7 +3,7 @@ from tkinter import *
 # WINDOW FEATURES
 window = Tk()
 window.title("Life Choices Online")
-window.geometry("900x700")
+window.geometry("900x650")
 window.config(bg="black")
 window.resizable(0, 0)
 
@@ -20,8 +20,6 @@ line1.place(x=58, y=290)
 line2 = Label(text="To proceed, please select your choice below.", bg="black", fg="#A5D200", font="arial 21 italic")
 line2.place(x=95, y=355)
 
-sign = Label(text="Designed by Aaliyah Jardien ©", bg="black", fg="white", font="arial 12 bold")
-sign.place(x=275, y=640)
 # FUNCTIONS
 # def log
 
@@ -34,5 +32,6 @@ login.place(x=385, y=490)
 
 admin = Button(text="Admin", command="", bg="#6B8213", fg="white", font="arial 25 bold", border="10")
 admin.place(x=650, y=490)
+
 
 window.mainloop()
